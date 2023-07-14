@@ -4,74 +4,69 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>homework2</title>
-    <link rel="stylesheet" href="./css/styles.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap "
       rel="stylesheet"
     />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&display=swap"
-      rel="stylesheet"
     />
   </head>
   <body>
     <!-- header -->
-    <header class="header">
+    <header class="page-header">
       <nav>
-        <div class="logo">
-          <a href="./index.html"></a>
-          <img src="./images/web.svg" alt="web" />
-          <img src="./images/studio.svg" alt="studio" />
-        </div>
+        <a href="./index.html" class="logo-link">
+          <span class="logo">WEB</span>
+          <span class="studio">STUDIO</span>
+        </a>
 
-        <ul>
+        <ul class="nav-menu list">
           <li>
-            <a href="./studio.html">Studio</a>
+            <a href="./index.html" class="page current">Studio</a>
           </li>
 
           <li>
-            <a href="./portfolio.html">Portfolio</a>
+            <a href="./portfolio.html" class="page">Portfolio</a>
           </li>
 
           <li>
-            <a href="#">Contacts</a>
-          </li>
-
-          <li>
-            <a href="mailto:info@devstudio.com">info@devstudio.com</a>
-          </li>
-          <li>
-            <a href="tel:+110001111111">+11(000)111-11-11</a>
+            <a href="#" class="page">Portfolio</a>
           </li>
         </ul>
       </nav>
+
+      <ul class="contacts-menu list">
+        <li>
+          <a href="mailto:info@devstudio.com" class="item"
+            >info@devstudio.com</a
+          >
+        </li>
+        <li>
+          <a href="tel:+110001111111" class="item">+11(000)111-11-11</a>
+        </li>
+      </ul>
     </header>
 
     <!-- Main Section -->
     <main>
       <!-- Hero Section  -->
-      <section class="hero">
+      <section class="hero bg-hero">
         <div>
           <h1 class="hero-title">
             Effective Solutions <br />
             for Your Business
           </h1>
 
-          <button class="hero-button">Order Service</button>
+          <button class="button-primary">Order Service</button>
         </div>
       </section>
 
       <!-- Section 2 -->
-      <section>
-        <div class="feature">
-          <ul>
+      <section class="section">
+        <div class="container">
+          <ul class="benefit list">
             <li>
-              <h3>Strategy</h3>
-              <p>
+              <h3 class="title">Strategy</h3>
+              <p class="description">
                 Our goal is to identify the business
                 <br />problem to walk away with the <br />perfect and creative
                 solution.
@@ -109,11 +104,11 @@
       </section>
 
       <!-- Section 3 -->
-      <section>
-        <div class="what-we-do">
-          <h2>What Are We Doing</h2>
+      <section class="section">
+        <div class="container">
+          <h2 class="section-title">What Are We Doing</h2>
 
-          <ul>
+          <ul class="what-we-do list">
             <li>
               <img
                 src="./images/image-1.jpg"
@@ -145,11 +140,11 @@
       </section>
 
       <!-- Section 4 -->
-      <section>
-        <div class="team">
-          <h2>Our Team</h2>
+      <section class="section bg-team">
+        <div class="container">
+          <h2 class="section-title">Our Team</h2>
 
-          <ul>
+          <ul class="team list">
             <li>
               <img
                 src="./images/mark.jpg"
@@ -157,8 +152,8 @@
                 width="264"
                 height="260"
               />
-              <h3>Mark Guerrero</h3>
-              <p>Product Designer</p>
+              <h3 class="name">Mark Guerrero</h3>
+              <p class="type">Product Designer</p>
             </li>
 
             <li>
@@ -200,13 +195,13 @@
 
     <!-- Footer -->
 
-    <footer class="footer">
+    <footer class="page-footer bg-footer">
       <div>
-        <a href="./index.html" class="footerlogo">
-          <img src="./images/web.svg" alt="web" />
-          <img src="./images/studio2.svg" alt="studio" />
+        <a href="./index.html" class="logo-link">
+          <span class="logo">WEB</span>
+          <span class="studio-footer">STUDIO</span>
         </a>
-        <p class="footerwords">
+        <p class="footer-description">
           Increase the flow of customers and sales <br />
           for your business with digital <br />
           marketing & growth solutions.
