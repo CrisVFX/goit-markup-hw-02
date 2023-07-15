@@ -1,20 +1,49 @@
-.page-header {
-  width: auto;
-  height: 72px;
-  flex-shrink: 0;
-  border-bottom: 1px solid var(--cornflower, #e7e9fc);
-  background: var(--white, #fff);
+:root {
+  --iris: #4d5ae5;
+  --navyblue: #2e2f42;
+  --cloud: #f4f4fd;
+  --cornflower: #e7e9fc;
+  --ocean: #404bbf;
+  --slate: #434455;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  letter-spacing: 0.03em;
+  color: var(--slate);
+}
+
+.list {
+  text-decoration: none;
+}
+
+.logo-link {
+  font-family: 'Raleway', sans-serif;
+  font-size: 0;
+  font-weight: 800;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  text-decoration: none;
+}
+
+.logo-link > span {
+  font-size: 18px;
 }
 
 .logo {
   color: var(--iris, #4d5ae5);
-  font-family: Raleway;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 800;
-  line-height: 21px; /* 116.667% */
-  letter-spacing: 0.54px;
-  text-transform: uppercase;
+}
+
+.button {
+  border-color: transparent;
+  font-family: inherit;
+  font-weight: 500;
+  line-height: 1.5;
+  border-radius: 4px;
+  letter-spacing: 0.03em;
+  cursor: pointer;
+  font-size: 16px;
 }
 
 .studio {
