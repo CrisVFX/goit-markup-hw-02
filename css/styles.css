@@ -15,7 +15,7 @@ body {
 }
 
 .list {
-  text-decoration: none;
+  list-style: none;
 }
 
 .logo-link {
@@ -59,7 +59,9 @@ body {
 }
 
 .button.filter {
-  background-color: var(--ocean);
+  background-color: var(--cloud);
+  font-weight: 500;
+  line-height: 1.62;
 }
 
 .button.filter:hover,
@@ -116,7 +118,7 @@ body {
   text-decoration: none;
   font-weight: 400;
   line-height: 1.14;
-  letter-spacing: 0.2em;
+  letter-spacing: 0.02em;
 }
 
 .bg-hero {
